@@ -1,0 +1,45 @@
+.bug-attachment-preview-image img {
+	cursor: zoom-in;
+}
+
+.inline-images-modal {
+	max-width: 95vw;
+	max-height: 95vh;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	overflow: visible;
+}
+
+.inline-images-modal::backdrop {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.inline-images-modal img {
+	display: block;
+	max-width: 95vw;
+	max-height: 95vh;
+	cursor: zoom-out;
+}
+
+.inline-images-modal-close {
+	position: absolute;
+	top: -1.2em;
+	right: -0.2em;
+	background: none;
+	border: 0;
+	color: #fff;
+	font-size: 2em;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.inline-images-status {
+	margin-top: 0.3em;
+	font-size: 0.9em;
+	color: #307ecc;
+}
+
+.inline-images-status.failed {
+	color: #d15b47;
+}

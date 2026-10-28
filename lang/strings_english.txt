@@ -1,0 +1,7 @@
+<?php
+$s_plugin_InlineImages_title = 'Inline Images';
+$s_plugin_InlineImages_description = 'Paste clipboard images into notes and issue descriptions; open image previews in a modal.';
+$s_plugin_InlineImages_close = 'Close';
+$s_plugin_InlineImages_attached = 'Attached to the issue: %s';
+$s_plugin_InlineImages_queued = 'Will be attached when you submit: %s';
+$s_plugin_InlineImages_failed = 'Could not attach %s';
